@@ -1,0 +1,9 @@
+
+public class NewThread extends Thread {
+	NewThread() {
+		// Create a new, second thread
+		super("Demo Thread");
+		System.out.println("Child thread: "+this);
+		start();
+	}
+}
